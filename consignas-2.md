@@ -13,13 +13,13 @@ function esPalindromo(str)
 
 What will the code below output to the console and why?
 
-`outer func:  this.foo = bar
+```outer func:  this.foo = bar
 outer func:  self.foo = bar 
 inner func:  this.foo = undefined 
 inner func:  self.foo = bar 
 
 because the scope of the function, in inner func: this.foo refers to a variable out of the function thats why it results undefined
-`
+```
 ```javascript
 var myObject = {
     foo : "bar",

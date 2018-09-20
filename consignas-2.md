@@ -40,30 +40,32 @@ myObject.func();
 
 
 a. What is a Promise?
-    A promise is the eventual result or failure of an asynchronous operation. 
+    ``` A promise is the eventual result or failure of an asynchronous operation. ```
 
 b. What is ECMAScript?
-    It is the base from which different script languages come
+    ```It is the base from which different script languages come```
 
 c. What is NaN? What is its type? How can you reliably test if a value is equal to NaN ?
-    Not A Number, numeric data type value with an undefined value, using Number.isNaN() method
+    ```Not A Number, numeric data type value with an undefined value, using Number.isNaN() method```
 
 d. What will be the output when the following code is executed? Explain.
-    console.log(false=='0') = true, is not a strict comparison, will try to convert the types before compare.
-    console.log(false==='0') = false, this is a strict comparison, compare it's type.
-
 
 ```javascript 
 console.log(false=='0')
 console.log(false==='0')
 ```
 
+
+    ```console.log(false=='0') = true, is not a strict comparison, will try to convert the types before compare.
+    console.log(false==='0') = false, this is a strict comparison, compare it's type.```
+
+
 ### Node
 
 Explain what does "event-driven, non-blocking I/O" means in Javascript.
 
-In a sequential event model, it is important not to block something waiting for a response that may take longer than expected to arrive, so to avoid blocking the event loop you must work with promises to work the events asynchronously.
-Don't ever block the event loop.
+```In a sequential event model, it is important not to block something waiting for a response that may take longer than expected to arrive, so to avoid blocking the event loop you must work with promises to work the events asynchronously.
+Don't ever block the event loop.```
 
 
 

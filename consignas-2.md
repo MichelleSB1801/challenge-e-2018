@@ -55,9 +55,10 @@ console.log(false=='0')
 console.log(false==='0')
 ```
 
-
-    ```console.log(false=='0') = true, is not a strict comparison, will try to convert the types before compare.
-    console.log(false==='0') = false, this is a strict comparison, compare it's type.```
+```
+console.log(false=='0') = true, is not a strict comparison, will try to convert the types before compare.
+console.log(false==='0') = false, this is a strict comparison, compare it's type.
+```
 
 
 ### Node

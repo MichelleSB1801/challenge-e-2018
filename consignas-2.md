@@ -64,8 +64,11 @@ console.log(false==='0')
 
 Explain what does "event-driven, non-blocking I/O" means in Javascript.
 
-```In a sequential event model, it is important not to block something waiting for a response that may take longer than expected to arrive, so to avoid blocking the event loop you must work with promises to work the events asynchronously.
-Don't ever block the event loop.```
+```
+In a sequential event model, it is important not to block something waiting for a response that may take longer 
+than expected to arrive, so to avoid blocking the event loop you must work with promises to work the events asynchronously.
+Don't ever block the event loop.
+```
 
 
 
